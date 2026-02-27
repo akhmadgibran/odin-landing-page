@@ -60,8 +60,8 @@ header {
 .hero {
     display: flex;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap: 40px;
     align-items: center;
 }
@@ -109,6 +109,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .h2-title {
@@ -156,3 +158,28 @@ header {
     color: #7c7c7c;
 }
 /* INFO SECTION END */
+
+/* QUOTES START */
+.container.quotes {
+    background-color: #e5e7eb;
+}
+.quotes-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quotes-para {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotes-credit {
+    display: flex;
+    justify-content: flex-end;
+}
+/* QUOTES END */
